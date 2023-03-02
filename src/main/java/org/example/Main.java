@@ -31,6 +31,11 @@ class App {
 
             if (a.equals("종료")) {
                 break;
+            } else if (a.equals("등록")) {
+                System.out.print("명언 : ");
+                String content = sc.nextLine().trim();
+                System.out.print("작가 : ");
+                String author = sc.nextLine().trim();
             }
         }
     }
