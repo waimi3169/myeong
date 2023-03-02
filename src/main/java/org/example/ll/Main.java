@@ -1,4 +1,4 @@
-package org.example;
+package org.example.ll;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -10,11 +10,11 @@ import java.util.Map;
 import java.util.HashMap;
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Container.init();
 
-        new App(sc).run();
+        new App().run();
 
-        sc.close();
+        Container.close();
     }
 }
 
